@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      background-image: url(sho1.jpg);
+      background-image: url(b2.webp);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -18,16 +17,26 @@
       place-items: center;
       gap: 20px;
     }
+     .video-contaianer{
+        max-width: 700px;
+        margin: 0 10%;
+     }
+     video{
+        width:100%;
+        height: 450px;
+        display: block;
+        margin: 10px;
 
-    .rect {
-      border-radius: 0px;
-      background-color: rgb(9, 9, 9);
+     }
+     .rect {
       margin: 1%;
       text-align: center;
-      font-size: 12px;
+      font-size: 30px;
       color: rgb(253, 8, 8);
       padding: 0px 20px;
     }
+    
+    
 
     header {
       top: 0;
@@ -74,26 +83,37 @@
   <header>
     <div class="logo">
         <a href="index.html"><img src="imageh.png" width="80">
-
-    </div>
-    <ul>
-        <li> <a href="home.html">Home</a></li>
-        <li> <a href="About.html">About</a></li>
-        <li> <a href="contact.html">Contact</a></li>
-    </ul>
+        </div></a>
   </header>
-
+  <div class="rect">
   <div class="main-content">
     <div class="rect">
     <div>
-      <h1>
-       "HI' IM WINDELL"
-        ^^WELCOME TO MY WEBSITE^^
-      </h1>
+        My Project
     </div>
-    <div>
-        <img src="windell.jpg" width="350" height="400">
-    </div>
+    <div class="video-contaianer">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div>
+            My Teammates
+        </div>
+        <div>
+            <img src="pic1.jpg" width="350" height="400">
+        </div>
+        <div>
+            <img src="pic2.jpg" width="350" height="400">
+        </div>
+        <div>
+            <img src="pic3.jpg" width="350" height="400">
+        </div>
+        <div>
+            <img src="pic4.jpg" width="350" height="400">
+        </div>
+   
+  </div>
+
 </body>
 
 </html>
